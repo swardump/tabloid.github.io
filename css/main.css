@@ -1,0 +1,58 @@
+#teams {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+	padding-bottom: 1em;
+}
+
+#clearTeam, #changeTeam {
+	margin-right: 1em;
+}
+.team {
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+}
+
+.saveTeam {
+	display: flex;
+    justify-content: center;
+}
+
+#match {
+	display: none;
+}
+
+#headMenu {
+	display: flex;
+	justify-content: right;
+	margin-bottom: 1em;
+}
+
+#headBlock {
+	display: flex;
+    justify-content: space-evenly;
+    font-size: 45px;
+}
+
+#middleBlock {
+	display: flex;
+    justify-content: center;
+    font-size: 350;
+	margin-bottom: 1vh;
+}
+
+.score {
+	display: flex;
+}
+
+#decLeftCurrentScore {
+	width: 200px;
+}
+
+#decRightCurrentScore {
+	width: 200px;
+}
+
+

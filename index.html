@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./js/jquery-v3.7.1.js"></script>
+    <script src="./js/main.js"></script>
+    <title>Бадминтон</title>
+</head>
+<body>
+    <div id="params">
+        <div id="teams">
+            <div class="team">
+                <label for="team-1">Команда 1: </label><input type="text" name="team-1" id="team-1" placeholder="Название коменды"> 
+            </div>  
+            <div class="team">
+                <label for="team-2">Команда 2: </label><input type="text" name="team-2" id="team-2" placeholder="Название команды"> 
+            </div>
+        </div>
+        <div class="saveTeam">
+            <input id="clearTeam" type="button" value="Очистить">
+            <input id="changeTeam" type="button" value="Поменять местами">
+            <input id="saveBtn" type="button" value="Сохранить">
+        </div>
+    </div>
+
+    <div id="match">
+        <div id="headMenu">
+            <div class="closeTeam">
+                <input id="closeBtn" type="button" value="Закрыть">
+            </div>
+        </div>
+        <div>
+            <div id="headBlock">
+                <div class="teamLeft">
+                    <div class="nameTeamLeft"></div>
+                </div>
+
+                <div class="score">
+                    <div class="leftScore">
+                        
+                    </div>
+                    <div>:</div>
+                    <div class="rightScore">
+                        
+                    </div>
+                </div>
+
+                <div class="teamRight">
+                    <div class="nameTeamRight"></div>
+                </div>
+            </div>
+
+
+            <div id="middleBlock">
+                    <div>
+                        <div class="leftCurrentScore"></div>
+                        <div style="display:flex; justify-content:center;">
+                            <input id="decLeftCurrentScore" type="button" value="-">
+                        </div>
+                    </div>
+                    <div class="colon">:</div>
+                    <div>
+                        <div class="rightCurrentScore"></div>
+                        <div style="display:flex; justify-content:center;">
+                            <input id="decRightCurrentScore" type="button" value="-">
+                        </div>
+                    </div>
+            </div>
+
+
+            <div id="bottomBlock" style="display:flex; justify-content:center;">
+                <input id="clearCurrentScore" type="button" value="Очистить">
+            </div>
+        <div>
+    </div>
+</body>
+</html>
